@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,6 +12,7 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
   </head>
+  <!--script src="//code.tidio.co/uqtus6ndcmvjxrpc8u5yut63uvxdug5t.js" async></script>-->
   <body>
 <!--header-->
 <header id="site-header" class="fixed-top">
@@ -21,10 +21,10 @@
           <h1> <a class="navbar-brand" href="index.html">
                   <span class="fa fa-shopping-cart"></span> Grocery Shopping
               </a></h1>
-          <!-- if logo is image enable this   
-  <a class="navbar-brand" href="#index.html">
+          <!--if logo is image enable this   
+    a class="navbar-brand" href="#index.html">
       <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-  </a> -->
+  </a>-->
           <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
               data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
               aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav mx-lg-auto">
-                  <li class="nav-item @@home__active">
+                  <li class="nav-item active">
                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item @@about__active">
@@ -43,33 +43,33 @@
                   <li class="nav-item @@services__active">
                       <a class="nav-link" href="services.html">Products</a>
                   </li>
-                  <li class="nav-item active">
+                  <li class="nav-item @@contact__active">
                       <a class="nav-link" href="contact.html">Contact</a>
                   </li>
               </ul>
 
               <!--/search-right-->
               <div class="search-right">
-                <!--<a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>-->
-                <!-- search popup -->
-                <!--<div id="search" class="pop-overlay">
-                    <div class="popup">
+                  <!--<a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>-->
+                  <!-- search popup -->
+                  <!--<div id="search" class="pop-overlay">
+                      <div class="popup">
 
-                        <form action="error.html" method="GET" class="search-box">
-                            <input type="search" placeholder="Enter Keyword" name="search" required="required"
-                                autofocus="">
-                            <button type="submit" class="btn"><span class="fa fa-search"
-                                    aria-hidden="true"></span></button>
-                        </form>
+                          <form action="error.html" method="GET" class="search-box">
+                              <input type="search" placeholder="Enter Keyword" name="search" required="required"
+                                  autofocus="">
+                              <button type="submit" class="btn"><span class="fa fa-search"
+                                      aria-hidden="true"></span></button>
+                          </form>
 
-                    </div>-->
-                    <a class="close" href="#close"></a>
-                </div>
-                <!-- /search popup
-            </div>
-            //search-right-->
+                      </div>-->
+                      <a class="close" href="#close"></a>
+                  </div>
+                  <!-- /search popup
+              </div>
+              //search-right-->
               <div class="top-quote mr-lg-3 mt-lg-0">
-                <a href="bot.html" class="btn btn-style btn-primary">Grocery Bot</a>
+                  <a href="bot.html" class="btn btn-style btn-primary">Grocery Bot</a>
               </div>
           </div>
           <!-- toggle switch for light and dark theme -->
@@ -90,115 +90,54 @@
       </nav>
   </div>
 </header>
-<!--/header-->
-<section class="w3l-about-breadcrumb">
-    <div class="breadcrumb-bg breadcrumb-bg-about py-5">
-        <div class="container py-lg-4 py-md-3">
-            <h2 class="title">Contact us</h2>
-        </div>
-    </div>
-</section>
-<div class="w3l-contact-info py-5" id="contact">
-    <div class="container py-lg-5 py-md-4">
-        <div class="align-self mt-lg-0 mt-md-5 mt-4">
-            <div class="contact-infos">
-                <div class="single-contact-infos">
-                    <div class="icon-box"> <span class="fa fa-map-marker"></span></div>
-                    <div class="text-box">
-                        <h3 class="mb-3">Address info</h3>
-                        <p>Vijaywada, AP , India.</p>
-                    </div>
-                </div>
-                <div class="single-contact-infos">
-                    <div class="icon-box"> <span class="fa fa-clock-o"></span></div>
-                    <div class="text-box">
-                        <h3 class="mb-3">Opening hours</h3>
-                        <p class=""> Monday - Friday : 9am - 6pm</p>
-                        <p class=""> Saturday : 10am - 4pm</p>
-                    </div>
-                </div>
-                <div class="single-contact-infos">
-                    <div class="icon-box"> <span class="fa fa-envelope"></span></div>
-                    <div class="text-box">
-                        <h3 class="mb-3">Contact info</h3>
-                        <p class=""><a href="tel:+1(21) 234 4567">+(91) 123456789</a></p>
-                        <p class=""> <a href="mailto:info@support.com">abc12345@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-lg-6 map">
-                <iframe
-                    src="https://www.google.com/maps/d/embed?mid=1Ag_4UqU_cAdh3NOsxvQTMqkO9MY&hl=en&ehbc=2E312F" width="640" height="480""
-                    frameborder="0" allowfullscreen=""></iframe>
-            </div>
-            <div class="col-lg-6 form-inner-cont mt-lg-0 mt-sm-5 mt-4">
-                <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
-                    <div class="form-input">
-                        <input type="text" name="w3lName" id="w3lName" placeholder="Your name">
-                    </div>
-                    <div class="form-input">
-                        <input type="email" name="w3lSender" id="w3lSender" placeholder="Your email address"
-                            required="">
-                    </div>
-                    <div class="form-input">
-                        <textarea name="w3lMessage" id="w3lMessage" placeholder="Your message" required=""></textarea>
-                    </div>
-                    <div class="text-right">
-                        <button type="submit" class="btn btn-style btn-primary">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<section class="w3l-footer-29-main">
-  <div class="footer-29 py-5">
-    <div class="container py-lg-4 py-sm-3">
-      <div class="row footer-top-29">
-        <div class="col-lg-5 footer-list-29 footer-1">
-          <h2><a href="index.html" class=""><span class="fa fa-shopping-cart"></span> Grocery Shopping</a></h2>
-          <p>Grocery shopping offers you the opportunity to explore a wide variety of products, from fresh produce and dairy items to pantry staples and household necessities.
-          </p>
-        </div>
-        <div class="col-lg-3 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
-          <h6 class="footer-title-29"> Contact  </h6>
 
-          <div class="column2">
-            <div class="mb-2">
-              <span>Address :</span>
-              <p class="contact-para d-inline">Vijaywada, AP , India.</p>
-            </div>
-            <div class="">
-              <span>E-mail :</span><a href="mailto:info@mail.com">abc12345@gmail.com</a>
-            </div>
-            <div class="mt-2">
-              <span>Phone :</span><a href="tel: +(21)-255-886-1234"> +(91) 123456789</a>
+<iframe src='https://webchat.botframework.com/embed/GroceryBot43-bot?s=7lP1KI-toTc.v1xe2QkmOhbKzAP0oy6zHPelxcCkUM2xdePRayTFl0w'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+
+<section class="w3l-footer-29-main">
+    <div class="footer-29 py-5">
+      <div class="container py-lg-4 py-sm-3">
+        <div class="row footer-top-29">
+          <div class="col-lg-5 footer-list-29 footer-1">
+            <h2><a href="index.html" class=""><span class="fa fa-shopping-cart"></span> Grocery Shopping</a></h2>
+            <p>Grocery shopping offers you the opportunity to explore a wide variety of products, from fresh produce and dairy items to pantry staples and household necessities.  
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+            <h6 class="footer-title-29">Contact</h6>
+  
+            <div class="column2">
+              <div class="mb-2">
+                <span>Address :</span>
+                <p class="contact-para d-inline">Vijaywada, AP , India.</p>
+              </div>
+              <div class="">
+                <span>E-mail :</span><a href="mailto:info@mail.com">abc12345@gmail.com</a>
+              </div>
+              <div class="mt-2">
+                <span>Phone :</span><a href="tel: +(21)-255-886-1234"> +(91) 123456789</a>
+              </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 footer-list-29 footer-4 mt-lg-0 mt-5">
+            <h6 class="footer-title-29">For Updates </h6>
+            <p>Enter your email and receive the latest news from us. We'll never share your email address</p>
+  
+            <form action="#" class="subscribe" method="post">
+              <input type="email" name="email" placeholder="Your Email Address" required="">
+              <button><span class="fa fa-paper-plane"></span></button>
+            </form>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-6 footer-list-29 footer-4 mt-lg-0 mt-5">
-          <h6 class="footer-title-29">For Updates</h6>
-          <p>Enter your email and receive the latest news from us. We'll never share your email address</p>
-
-          <form action="#" class="subscribe" method="post">
-            <input type="email" name="email" placeholder="Your Email Address" required="">
-            <button><span class="fa fa-paper-plane"></span></button>
-          </form>
-        </div>
+  
       </div>
-
     </div>
-  </div>
-  <div class="bottom-copies text-center">
-    <div class="container">
-      <p class="copy-footer-29"> <a
-          href="https://w3layouts.com"></a></p>
+    <div class="bottom-copies text-center">
+      <div class="container">
+        <p class="copy-footer-29"> <a
+            href=" "></a></p>
+      </div>
     </div>
-  </div>
-
-  <!-- move top -->
+    <!-- move top -->
   <button onclick="topFunction()" id="movetop" title="Go to top">
     <span class="fa fa-angle-up"></span>
   </button>
@@ -423,6 +362,7 @@
 <!--//MENU-JS-->
 
 <script src="assets/js/bootstrap.min.js"></script>
+<!--script src="//code.tidio.co/uqtus6ndcmvjxrpc8u5yut63uvxdug5t.js" async></script>-->
 </body>
 
 </html>
