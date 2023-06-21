@@ -37,6 +37,7 @@ This is my Grocery Shopping website done as a part of FRT Project.
 
 Home Page
 
+
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/41934a7d-0f63-45df-b7d1-66a114977632)
 
 
@@ -44,12 +45,14 @@ Home Page
 
 Services Section
 
+
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/80c5a7e7-e418-49d0-a316-403597da87ac)
 
 
 
 
 Gallery Section
+
 
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/3b06f74d-863d-4042-a1df-a34dffad08ac)
 
@@ -59,6 +62,7 @@ Gallery Section
 
 About Page
 
+
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/4313e4f9-2fef-4c96-919b-4ebeb574ecda)
 
 
@@ -67,6 +71,7 @@ About Page
 
 Products Page
 
+
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/3f80981a-e722-450d-bece-68eadb61f47c)
 
 
@@ -74,12 +79,14 @@ Products Page
 
 Contact Page
 
+
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/4e4b5a04-ac60-47e4-bd10-41cd435667b4)
 
 
 
 
 Grocery Bot Page
+
 
 ![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/367f85cc-fb3a-427c-8490-1bb4008e3fce)
 
