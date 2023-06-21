@@ -2,25 +2,28 @@
 
 This is my Grocery Shopping website done as a part of FRT Project.
 
-**Project repository** --> https://github.com/JamiRohit/Grocery-Shopping
+**Project Link (GitHub repository)** --> https://github.com/JamiRohit/Grocery-Shopping
 
-**Project Link** --> https://agreeable-island-095e4ec10.3.azurestaticapps.net
+**Project Demo URL** --> https://agreeable-island-095e4ec10.3.azurestaticapps.net
 
-**Project Demo Video** --> https://youtu.be/PecdHZdFIDc
+**Project Demo Video URL** --> https://youtu.be/8ygZPOOoGwU
 
 
 **Azure technologies used for Project**
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* Static web apps
-* Web apps
+* Static Web App
+* Azure Cognitive Service ( Azure Language Service )
+* Azure Bot Service
 
 
 **Features and Functionalities**
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Interactive and responsive UI.
+* Has an Grocery Bot to interact for any type of queries.
 * Has many grocery products that are available via store and online carting.
 * Has Dark and light modes for webpage.
+* Grocery Bot provides live chat option for customer.
 * Has collection of many web pages including Home,About,Products,Contact.
 * It contains all the items like Packaged,spices,Milk,Bakery items,Vegetables and Fruits.
 * User can know the importance of each item while shopping.
@@ -34,42 +37,61 @@ This is my Grocery Shopping website done as a part of FRT Project.
 
 Home Page
 
-![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/40cce1db-aa04-498a-8b40-cec3f7aca8bb)
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/41934a7d-0f63-45df-b7d1-66a114977632)
+
+
 
 
 Services Section
 
-![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/32a4e9d5-0506-4c9a-8b74-286d3d347821)
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/80c5a7e7-e418-49d0-a316-403597da87ac)
+
+
 
 
 Gallery Section
 
-![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/5f142af8-b6cf-4d2a-b5cd-7fa6712ca2eb)
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/3b06f74d-863d-4042-a1df-a34dffad08ac)
+
+
 
 
 
 About Page
 
-![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/7551f91f-39c9-4047-bfa1-045e63c34320)
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/4313e4f9-2fef-4c96-919b-4ebeb574ecda)
+
+
 
 
 
 Products Page
 
-![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/ea2cbd7e-56a5-40d2-b7af-d093e17ff735)
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/3f80981a-e722-450d-bece-68eadb61f47c)
+
 
 
 
 Contact Page
 
-![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/30d3f92b-4a95-4250-a0e4-3b7dae1f5f33)
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/4e4b5a04-ac60-47e4-bd10-41cd435667b4)
+
+
+
+
+Grocery Bot Page
+
+![image](https://github.com/JamiRohit/Grocery-Shopping/assets/101118628/367f85cc-fb3a-427c-8490-1bb4008e3fce)
 
 
 
 
 **Tech Stack**
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* Azure(static web app)
+* Azure Static Web App
+* Azure Cognitive Service
+* Azure Bot Service
+* Azure Language Service
 * HTML
 * CSS
 * JavaScript
